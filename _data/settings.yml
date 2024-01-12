@@ -1,0 +1,161 @@
+#-------------------------------
+# General Site Settings
+
+#title: Chris Hadley | My personal website 
+title: Tale Weavers
+
+# Here you can add link in main menu
+menu:
+- {name: Portfolio, url: 'work', icon: 'ion ion-ios-briefcase'}
+- {name: Game, url: 'blog', icon: 'ion ion-ios-paper'}
+- {name: Contact us, url: 'contact', icon: 'ion ion-ios-mail'}
+
+#-------------------------------
+# About Section
+
+avatar: taleweaverslogo.png
+name: Tale Weavers
+my-job: Game Studio
+description: 'Meet our indie game studio: we are a team of students from URJC in Spain, crafting unique games.'
+email: taleweavers.games@gmail.com
+
+#-------------------------------
+# Skills Section
+
+skills-title: Professional Skills
+skills:
+- {name: Communication, value: '90'}
+- {name: Learning, value: '95'} 
+- {name: Planning, value: '60'}
+- {name: Visual Design, value: '80'}
+- {name: UX Design, value: '85'}
+- {name: Programming, value: '70'}
+
+#-------------------------------
+# Project Section
+
+project-title: Our Project
+objective: 'We are currently working on a stealth puzzle game. It is not only meant to be a fun strategic game aimed at a young audience but also a tool to help them develop <strong>computational thinking skills</strong> and develop <strong>effective problem-solving techniques</strong>. These abilities are essential, and it is important to provide children with tools that will help them exercise them. However, we feel that oftentimes didactical and serious games, even those aimed at kids, dwell too much on the didactical portion of the equation and fail to engage them in a fun way, thus losing their interest or becoming just another chore. We want our game to be above all something they can <strong>enjoy playing</strong>, we believe that educational values and enjoyment are not at odds, but rather two aspects that can work in tandem to the benefit of our players. They are<strong> inextricable and uncompromisable</strong>.'
+illustration: skills.png
+our-game: '<strong>In order to achieve our goals, we are focusing our efforts on fulfilling three aspects:</strong>'
+core:
+- {pilar-name: Level Design, consists-on: 'We believe in creating a <strong>challenging level design</strong>, thus both pushing our players to break down each level into more manageable problems and learn from previous experience, and making for an entertaining activity.'}
+- {pilar-name: Art and Setting, consists-on: 'We are working to achieve a theme and style that they will find <strong>friendly, yet not patronizing</strong>. The game follows the compelling heist/rescue story of a <strong>crow who must rescue a captured friend from the claws of mobster cats, infiltrating their lair without being detected by security or seized by the guards</strong>.'}
+- {pilar-name: Programing and Gameplay feel, consists-on: 'When working on any game, especially a multiplatform web game such as this one, the feel of the gameplay can make or break the user experience. We are designing and programming our game so that it may run smoothly on two of the most used browsers and planning our controls so that it makes for a <strong>satisfying gaming experience both on mobile and PC</strong>.'} 
+
+#-------------------------------
+# Experience Section
+
+experience-title: Experience
+experience:
+- {company-name: Industry Design & Media, duration: 2015 - 2018, job-position: Graphic and Web Designer in San Francisco, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+- {company-name: Graphic Design, duration: 2011 - 2015, job-position: Senior Illustrator in Milan, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+- {company-name: Pixel Media, duration: 2008 - 2011, job-position: Designer in Chicago, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {degree: Master Degree, years: 2002 - 2006, organization: University of Creative Minds, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+- {degree: Bachelores Degree, years: 1998 - 2002, organization: University of Creative Minds, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+- {degree: Specialised Coursework, years: 1997 - 1998, organization: University of Boston, description: Raclette farm-to-table meditation succulents taiyaki chambray gentrify taxidermy literally biodiesel. Blog knausgaard poutine tacos vaporware chillwave.}
+
+#-------------------------------
+# Clients Section
+clients-title: Team
+clients:
+- {
+  name: "Pablo Conde López",
+  title: "Programmer & Game Designer",
+  image: "Pablo.png",
+  #quote: "<p><strong>Working with Chris was the highlight of my career.</strong> Art party before they sold out lo-fi cronut. Narwhal normcore kinfolk crucifix cronut coloring book man braid lomo fixie sartorial helvetica cornhole activated charcoal ethical.</p>"
+}
+- {
+  name: "Almudena Sánchez Encinas",
+  title: "Artist",
+  image: "Almu.png",
+  #quote: "<p><strong>While we all felt that Chris was a great.</strong> Woke lumbersexual iceland truffaut blog, deep v poke ramps vexillologist heirloom flexitarian taxidermy lomo seitan gastropub. Bespoke vape next level meditation tattooed cred.</p>"
+}
+- {
+  name: "Daniel Salguero Fernández",
+  title: "Game Designer & Musician",
+  image: "Yo.png",
+  #quote: "<p><strong>Chillwave ethical enamel pin, fashion axe leggings.</strong> Bespoke franzen umami sustainable. Chambray keffiyeh cred sriracha. Hashtag street art humblebrag pok pok viral meggings tacos chambray narwhal gentrify woke etsy.</p>"
+}
+- {
+  name: "Gloria Turati Domínguez",
+  title: "Artist & Musician",
+  image: "Gloria.png",
+  #quote: "<p><strong>Skateboard iceland distillery succulents dreamcatcher cloud bread ugh keffiyeh unicorn austin.</strong> Palo santo health goth forage four dollar toast. Thundercats ramps irony meggings lo-fi kogi. Activated charcoal pitchfork you probably haven't heard of them squid.</p>"
+}
+- {
+  name: "Gonzalo Barranco Castro",
+  title: "Designer & Programming Assistant",
+  image: "Gonso.png",
+  #quote: "<p><strong>Skateboard iceland distillery succulents dreamcatcher cloud bread ugh keffiyeh unicorn austin.</strong> Palo santo health goth forage four dollar toast. Thundercats ramps irony meggings lo-fi kogi. Activated charcoal pitchfork you probably haven't heard of them squid.</p>"
+}
+- {
+  name: "Luis Morón Álvarez",
+  title: "Programmer",
+  image: "Luis.png",
+  #quote: "<p><strong>Skateboard iceland distillery succulents dreamcatcher cloud bread ugh keffiyeh unicorn austin.</strong> Palo santo health goth forage four dollar toast. Thundercats ramps irony meggings lo-fi kogi. Activated charcoal pitchfork you probably haven't heard of them squid.</p>"
+}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {
+  name: Whispers & Whiskers Feather Noir's Heist, 
+  link: "https://tale-weavers.itch.io/whispers-and-whiskers",
+  image: 'cover.png'
+}
+- {
+  name: Astral Trials - Aspect of Pluto, 
+  link: "https://kaixian17.itch.io/astral-trials-aspect-of-pluto",
+  image: 'astral-trials.png'
+}
+- {
+  name: Huis Clos, 
+  link: "https://almu-sanenc.itch.io/huis-clos",
+  image: 'caratula.png'
+}
+- {
+  name: El Misterio del Ronquillo, 
+  link: "https://redpablo.itch.io/el-misterio-del-ronquillo", 
+  image: 'ronquillo.png'
+}
+
+#-------------------------------
+# Social Settings
+
+social:
+- {link: "https://tale-weavers.itch.io/", icon: ion-ios-home }
+- {link: "https://twitter.com/taleweavers_", icon: ion-logo-twitter }
+- {link: "https://www.instagram.com/taleweavers_/", icon: ion-logo-instagram }
+- {link: "https://www.twitch.tv/tale_weavers", icon: ion-logo-twitch }
+- {link: "https://github.com/Tale-Weavers", icon: ion-logo-github }
+
+# social network icons available (https://ionicons.com/): 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' /
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------

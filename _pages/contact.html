@@ -1,0 +1,30 @@
+---
+layout: page
+title: Contact us
+image: banner.jpg
+permalink: /contact/
+---
+<!-- begin form-box -->
+<div class="form-box">
+  <!--<form class="form" method="POST" action="{% if site.data.settings.email %}https://formspree.io/{{site.data.settings.email}}{% else %}#{% endif %}">-->
+  <form class="form" method="POST" action="{% if site.data.settings.email %}https://formspree.io/f/xaygldwl{% else %}#{% endif %}">
+    <div class="form-group">
+      <div class="form-item form-name">
+        <label for="">Name:</label>
+        <input type="text" name="name" required>
+      </div>
+      <div class="form-item form-email">
+        <label for="">Email:</label>
+        <input type="email" name="email" required>
+      </div>
+    </div>
+    <div class="form-item">
+      <label for="">Message:</label>
+      <textarea name="text" id="" cols="30" rows="10" required></textarea>
+    </div>
+    <div class="form-item">
+      <button class="form-button" type="submit">Send</button>
+    </div>
+  </form>
+</div>
+<!-- end form-box -->
